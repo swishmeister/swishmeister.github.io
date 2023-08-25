@@ -134,7 +134,8 @@ body {
 }
 
 #popout-rangers,
-#popout-poe {
+#popout-poe,
+#popout-nvidia {
 	position: fixed;
 	width: 150vw;
 	height: 150vh;

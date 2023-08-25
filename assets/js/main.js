@@ -1,4 +1,4 @@
-var popouts = ["popout-rangers", "popout-poe"]
+var popouts = ["popout-rangers", "popout-poe", "popout-nvidia"]
 function openPopout(id) {
 	hideAllPopouts()
 	var popout = document.getElementById(id)
