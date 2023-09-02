@@ -172,6 +172,61 @@
 		</div>
 
 	</div>
+	<div id="popout-analyzer">
+		<div id="blur" onclick="hideAllPopouts()">
+		</div>
+		<div id="content">
+			<h1>Stock Portfolio Analyzer</h1>
+			<a class="icon brands fa-github"></li><a href="https://github.com/swishmeister/PortfolioAnalyzer/tree/main" target="_blank"> View on Github</a><br>
+			<a class="icon solid fa-file"></a><a href="assets/Portfolio_Analysis_Report_20230901_195656.pdf" target="_blank">  Sample Report</a>
+			<h2>About the Project</h2>
+			<p>This Python developed Portfolio Analysis Tool excels with its application of Monte Carlo simulations and
+				Efficient Frontier modeling. This software provides a comprehensive understanding of potential stock
+				portfolio scenarios, helping users visualize the risk-return trade-offs of their chosen stocks, while
+				also granting them the flexibility to input custom weights.</p>
+			<h2>Monte Carlo Simulation: A Deep Dive</h2>
+			<h3>Stochastic Analysis</h3>
+			<p>Monte Carlo simulations use random sampling to generate a multitude of potential asset return scenarios
+				based on historical data.</p>
+			<h3>Portfolio Combination</h3>
+			<P>The tool generates thousands of potential portfolios by randomly assigning different weight combinations
+				to each stock. However, for users with specific investment strategies or preferences, there's the option
+				to input custom weights for each stock, offering a more tailored analysis.</P>
+			<h3>Outcome</h3>
+			<p>Users are presented with a wide array of portfolios, each showcasing a unique blend of expected returns
+				and associated volatilities.</p>
+			<h2>Efficient Frontier Modeling: Visualizing Optimal Portfolios</h2>
+			<h3>Visualization</h3>
+			<p>All simulated portfolios are plotted on a graph. The Efficient Frontier, representing the optimal
+				portfolios, emerges as the upper boundary of this plot.</p>
+			<h3>Key Insights</h3>
+			<ul>
+				<li>Maximum Sharpe Ratio: Represents the portfolio with the optimal risk-adjusted return.</li>
+				<li>Minimum Volatility: Denotes the least risky portfolio.</li>
+				<li>Portfolio Beta: A measure of the portfolio's volatility in comparison to the S&P 500. It provides
+					insights into the market risk associated with the portfolio.</li>
+				<li>Alpha: This metric evaluates the portfolio's performance against the benchmark index, helping users
+					understand if their strategy is outperforming the market.</li>
+				<li>R-squared: Indicates how closely the portfolio's returns match or deviate from the benchmark index's
+					returns. A higher R-squared value means the portfolio's performance is closely aligned with the
+					market.</li>
+			</ul>
+			<h3>Integration of Simulations, Modeling & Customization</h3>
+			<p>The Portfolio Analysis Tool's strength lies in its integration of advanced techniques like Monte Carlo
+				simulations with Efficient Frontier modeling and its adaptability to user preferences through custom
+				weight inputs. This combination ensures both a broad analytical perspective and a tailored experience
+				for users.</p>
+			<h3>Conclusion</h3>
+			<p>This Portfolio Analysis Tool provides an advanced yet user-friendly platform for stock portfolio
+				analysis. By offering insights derived from Monte Carlo simulations, Efficient Frontier modeling, and
+				other key financial metrics, while also accommodating custom inputs, it ensures users are equipped to
+				make well-informed investment decisions.
+			</p>
+
+		</div>
+		</div>
+
+	</div>
 	<div id="popout-nvidia">
 		<div id="blur" onclick="hideAllPopouts()">
 
@@ -182,7 +237,8 @@
 			<br><br>
 			<P>A comprehensive examination of Nvidia, delving into its strategic positioning within the semiconductor
 				industry. This analysis deciphers the company's financial health, performance metrics, and competitive
-				landscape. Leveraging financial statements and industry data, the rewesport offers insights into Nvidia's
+				landscape. Leveraging financial statements and industry data, the rewesport offers insights into
+				Nvidia's
 				growth trajectory, profitability, and potential risks, providing a holistic understanding of its
 				business dynamics.</P>
 		</div>
@@ -213,7 +269,7 @@
 						to unearth insights and facilitate decision-making in my favorite hobbies.</p>
 					<section class="features">
 						<article>
-							<a href="#" class="image"><img src="images/Rangers_stadium2.png" alt="" /></a>
+							<a class="image"><img src="images/Rangers_stadium2.png" /></a>
 							<h3 class="major">Rangers Pitching Study</h3>
 							<p>An SQL-driven analysis providing a comprehensive overview of pitching statistics for the
 								Texas Rangers baseball team.</p>
@@ -221,24 +277,24 @@
 
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/Poe_Currency.png" alt="" /></a>
+							<a class="image"><img src="images/Poe_Currency.png" /></a>
 							<h3 class="major">Path of Exile Currency Visualization</h3>
-							<p>A Power BI dashboard visualizing in-game currency values and trends for the game Path of
+							<p>A Power BI dashboard visualizing in-game currency values and financial trends for the game Path of
 								Exile.</p>
 							<a onclick="openPopout('popout-poe')" class="special">Learn more</a>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/Valorant_stats2.png" alt="" /></a>
-							<h3 class="major">Valorant Statistics Tracker</h3>
-							<p>A Python-built stat tracker leveraging the Riot API to fetch and analyze in-game metrics
-								for Valorant players.</p>
-							<a href="#" class="special">Learn more</a>
+							<a class="image"><img src="images/efficientfrontier1.png" /></a>
+							<h3 class="major">Stock Portfolio Analyzer</h3>
+							<p>A Python program designed to perform financial analysis on a stock portfolio by comparing
+								their historical data and utilizing Monte Carlo simulations</p>
+							<a onclick="openPopout('popout-analyzer')" class="special">Learn more</a>
 						</article>
 						<article>
-							<a class="image"><img src="images/nvidiaoffice.jpg"/></a>
+							<a class="image"><img src="images/nvidiaoffice.jpg" /></a>
 							<h3 class="major">Nvidia Strategic and Financial Analysis</h3>
-							<p>A deep dive into Nvidia's financial health and strategic prowess in the semiconductor
-								realm.</p>
+							<p>A comprehensive deep dive into Nvidia's financial health and strategic prowess in the
+								semiconductor industry.</p>
 							<a onclick="openPopout('popout-nvidia')" class="special">Learn more</a>
 						</article>
 
@@ -253,7 +309,8 @@
 				<h2 class="major">Contact Info</h2>
 				</li>
 				<li class="icon solid fa-envelope"><a href="#"> austinlswisher@gmail.com</a></li>
-				<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/swish-austin/" target="_blank"> Linked In</a></li>
+				<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/swish-austin/" target="_blank">
+						Linked In</a></li>
 				<li class="icon brands fa-github"><a href="https://github.com/swishmeister" target="_blank"> GitHub</a>
 			</div>
 		</section>

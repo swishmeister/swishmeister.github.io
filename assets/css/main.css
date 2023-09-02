@@ -135,7 +135,8 @@ body {
 
 #popout-rangers,
 #popout-poe,
-#popout-nvidia {
+#popout-nvidia,
+#popout-analyzer {
 	position: fixed;
 	width: 150vw;
 	height: 150vh;
