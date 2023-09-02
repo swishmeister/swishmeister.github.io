@@ -23,34 +23,46 @@
 			</h1>
 			<a class="icon brands fa-github"><a
 					href="https://github.com/swishmeister/SQL_Projects/blob/main/SQLrangerspitchingstats.sql"
-					target="_blank"> GitHub</a>
+					target="_blank"> View on GitHub</a>
 				<h2>About:</h2>
-				<p>In this project, foundational SQL skills were put into action, starting with thorough data cleaning
-					to address inconsistencies and outliers, ensuring a solid base for analysis. The integration of data
-					from LastPitchRangers and RangersPitchingStats showcased adeptness in joining multiple datasets.
-					Utilizing data transformation techniques, such as common table expressions and subqueries, the data
-					was tailored for specific insights. Proficiency in aggregate functions was displayed by deriving key
-					metrics, and comparative analyses highlighted contrasts between different data facets. The project
-					culminated in detailed, player-specific evaluations, exemplifying the versatility and depth of the
-					SQL analyses undertaken. For a detailed look at the full code, please visit my GitHub Repository
-					linked above. </p>
+				<P>This project offers a comprehensive analysis of the Rangers' pitching statistics, employing a range
+					of SQL techniques to unearth pivotal insights about the team's performance, strategies, and player
+					tendencies.</P>
+				<h2>Data Manipulation Techniques</h2>
+				<p>Ensuring data integrity was paramount. Rigorous data cleaning processes were employed to rectify
+					inconsistencies, filter outliers, and handle missing values. With this solid foundation, an array of
+					SQL techniques was used to manipulate and structure the data for insightful analyses:
+
+					<ul>
+						<li>AVG() Function: Essential for computing averages, this function provided insights into
+							central tendencies and overarching trends.</li>
+						<li>OVER() Clause: Used to segment data and perform advanced aggregations, it enriched the
+							analysis by providing contextual insights.</li>
+						<li>RANK() Function: By ranking data based on specific criteria, performance metrics were
+							contextualized, revealing standout players and strategies.</li>
+						<li>UNION: Allowed for a comprehensive amalgamation of related datasets, ensuring no valuable
+							insight was overlooked.</li>
+						<li>JOIN: Seamlessly integrated disparate data sources, weaving a cohesive narrative from
+							fragmented data points.</li>
+						<li>DISTINCT: Ensured results were pristine and free from redundancy, ensuring clarity in
+							insights.</li>
+					</ul>
+				</p>
 
 				<h2> 1. Introduction to the Data Landscape:
 				</h2>
-				<p> At the beginning of our expedition, we first acquaint ourselves with the primary datasets -
-					LastPitchRangers and RangersPitchingStats. By viewing the entirety of these datasets, we lay the
-					groundwork, giving us a panoramic view of the data we're about to dive deep into.</p>
+				<p> We began our investigation by diving into two foundational datasets: LastPitchRangers and
+					RangersPitchingStats. This initial exploration laid the groundwork for our subsequent deep dives.
+				</p>
 				<img src="images/Part1.png" alt="" width=95%>
 
 				<h2>2. The Art of Averaging:
 				</h2>
-				<p>Our journey then meanders into understanding the average nuances of the game. We start by calculating
-					the average number of pitches per at-bat. This exploration branches into a comparison between home
-					and
-					away games, giving us insights into how familiar turf might influence the game. The analysis further
-					bifurcates, comparing lefty vs. righty batters, revealing potential strategies or biases. We wrap up
-					this segment by delving into specific pitchers, focusing on those with more than 20 innings,
-					highlighting the veterans of the game.
+				<p>Next, we ventured into the game's core, unraveling the average number of pitches per at-bat. An
+					interesting comparison emerged between home and away games, hinting at the subtle influences of
+					familiar grounds. Our analysis further branched out, contrasting performances against lefty and
+					righty batters. The spotlight then shifted to individual pitchers, particularly those who had
+					clocked more than 20 innings, showcasing the stalwarts of the game.
 
 				</p>
 				<img src="images/Part2a.png">
@@ -59,67 +71,80 @@
 				<img src="images/Part2d.png">
 				<h2>3. Decoding Pitch Preferences:
 				</h2>
-				<p>As we drift further, we plunge into the realm of pitch preferences. Which pitches do players favor
-					during the initial at-bats? This segment uncovers the top 3 most common pitches for the first ten
-					at-bats, potentially revealing early-game strategies or pitcher comfort zones.
+				<p>Our curiosity led us to pitch preferences. We unearthed the top 3 pitches that dominated the first
+					ten at-bats, hinting at possible early-game tactics or pitcher inclinations.
 				</p>
 				<img src="images/Part3.png">
 				<img src="images/Part3a.png">
 
 				<h2>4. The Intricacies of the Last Pitch:</h2>
-				<P>Our journey takes a twist, focusing on the climax of each at-bat - the last pitch. We count these
-					final throws, categorizing them into fastball and offspeed. This dissection might reveal if pitchers
-					prefer power or deception when it all comes down to the wire. Furthermore, the percentages provide a
-					clearer picture of this balance.</P>
+				<P>Our focus then pivoted to the climactic moments of each at-bat: the final pitch. We categorized these
+					pitches as either fastball or offspeed. In doing so, intriguing patterns surfaced, suggesting
+					whether pitchers leaned towards sheer velocity or cunning deception in those defining moments.</P>
 				<img src="images/Part4a.png">
 				<img src="images/Part4b.png">
 				<img src="images/Part4c.png">
 				<img src="images/Part4d.png">
 				<h2>5. The Home Run Chronicles:</h2>
-				<P>We then venture into the thrilling domain of home runs. What kind of pitches often result in these
-					game-changing moments? By breaking down home runs by pitch type, location, and the ball-strike
-					count, we unearth patterns that might be critical in future games. This segment is pivotal,
-					focusing on moments that can turn the tide in any match.
-					<img src="images/Part5a.png">
-					<img src="images/Part5b.png">
-					<img src="images/Part5c.png">
-					<img src="images/Part5d.png">
+				<P>The thrill of home runs couldn't be ignored. What kind of pitches led to these game changing moments?
+					By dissecting home runs based on pitch type, location, and the ball-strike count, we discerned
+					patterns that could hold the keys to future strategies.</P>
+				<img src="images/Part5a.png">
+				<img src="images/Part5b.png">
+				<img src="images/Part5c.png">
+				<img src="images/Part5d.png">
 
-					<h2>6. Player Spotlight - Pérez, Martín:</h2>
-					<p>Our narrative then zooms in on specific players, notably 'Pérez, Martín'. By analyzing pitch
-						zones tailored to individual players, we get a microscopic view, understanding player-specific
-						strategies or weaknesses.</p>
-					<img src="images/Part6.png">
-					<img src="images/Part6a.png">
-					<img src="images/Part6b.png">
+				<h2>6. Player Spotlight - Pérez, Martín:</h2>
+				<p>One player, 'Pérez, Martín', particularly caught our attention. A deep dive into his pitch zones
+					offered insights into player-specific tactics or potential vulnerabilities.</p>
+				<img src="images/Part6.png">
+				<img src="images/Part6a.png">
+				<img src="images/Part6b.png">
 
-					<h2>7. The Nuanced Metrics:</h2>
-					<p>As our journey nears its conclusion, we dive into other intricate metrics like release speed,
-						spin
-						rate,
-						and more. This segment offers a balanced mix of power, precision, and strategy, painting a vivid
-						picture
-						of the pitcher's arsenal.</p>
-					<img src="images/Part6c.png">
-					<h2>Conclusions</h2>
-					<P>In this meticulously crafted analysis, we journeyed through the intricate tapestry of pitching
-						strategies, uncovering invaluable insights that redefine the understanding of the game. By
-						diving into the nuances of average pitches, deciphering pitch preferences, and spotlighting
-						critical moments
-						like home runs, the project illuminates the complex interplay of strategy, psychology, and raw
-						skill
-						on the baseball field. The focused analysis on specific players, such as 'Pérez, Martín',
-						underscores
-						the importance of tailored strategies in modern baseball. As a conclusion, this project not only
-						offers a data-driven lens to view the sport but also emphasizes the profound impact of informed
-						decision-making in turning the tide of any match.</P>
-					<p>This SQL project, in essence, is a comprehensive exploration into the art and science of
-						pitching. Each query, each segment, stitches together to form a tapestry that showcases the
-						strategy,
-						skill, and suspense of the game. From broad strokes to fine details, the project is a testament
-						to the
-						depth and beauty of baseball analysis.</p>
-					<h2></h2>
+				<h2>7. The Nuanced Metrics:</h2>
+				<p>As our journey nears its conclusion, we dive into other intricate metrics like release speed,
+					spin
+					rate,
+					and more. This segment offers a balanced mix of power, precision, and strategy, painting a vivid
+					picture
+					of the pitcher's arsenal.</p>
+				<img src="images/Part6c.png">
+				<h2>Key Insights</h2>
+				<p>This project unraveled several profound insights
+					<ul>
+						<li><b>Strategic Adaptability</b>: The variance in pitch averages during home vs. away games
+							suggests the Rangers' adaptability, tailoring strategies based on game location and opponent
+							strengths.</li>
+						<li><b>Player-Centric Strategies</b>: The detailed breakdown between lefty vs. righty players
+							underscores the team's player-centric strategies, optimizing approaches based on individual
+							strengths and tendencies.</li>
+						<li><b>Early Game Dynamics</b>: Recognizing predominant pitches during initial at-bats implies
+							the team's emphasis on establishing early game dominance, using tried-and-tested pitches to
+							unsettle opponents from the onset.</li>
+						<li><b>Core Performance Analysis</b>: The focus on primary pitchers and their performance
+							metrics offers a lens into the team's strategic anchors, revealing who the go-to players are
+							in crunch situations.</li>
+					</ul>
+				</p>
+				<h2>Conclusions</h2>
+				<P>In this meticulously crafted analysis, we journeyed through the intricate tapestry of pitching
+					strategies, uncovering invaluable insights that redefine the understanding of the game. By
+					diving into the nuances of average pitches, deciphering pitch preferences, and spotlighting
+					critical moments
+					like home runs, the project illuminates the complex interplay of strategy, psychology, and raw
+					skill
+					on the baseball field. The focused analysis on specific players, such as 'Pérez, Martín',
+					underscores
+					the importance of tailored strategies in modern baseball. As a conclusion, this project not only
+					offers a data-driven lens to view the sport but also emphasizes the profound impact of informed
+					decision-making in turning the tide of any match.</P>
+				<p>This SQL project, in essence, is a comprehensive exploration into the art and science of
+					pitching. Each query, each segment, stitches together to form a tapestry that showcases the
+					strategy,
+					skill, and suspense of the game. From broad strokes to fine details, the project is a testament
+					to the
+					depth and beauty of baseball analysis.</p>
+				<h2></h2>
 
 		</div>
 
@@ -177,54 +202,69 @@
 		</div>
 		<div id="content">
 			<h1>Stock Portfolio Analyzer</h1>
-			<a class="icon brands fa-github"></li><a href="https://github.com/swishmeister/PortfolioAnalyzer/tree/main" target="_blank"> View on Github</a><br>
-			<a class="icon solid fa-file"></a><a href="assets/Portfolio_Analysis_Report_20230901_195656.pdf" target="_blank">  Sample Report</a>
-			<h2>About the Project</h2>
-			<p>This Python developed Portfolio Analysis Tool excels with its application of Monte Carlo simulations and
-				Efficient Frontier modeling. This software provides a comprehensive understanding of potential stock
-				portfolio scenarios, helping users visualize the risk-return trade-offs of their chosen stocks, while
-				also granting them the flexibility to input custom weights.</p>
-			<h2>Monte Carlo Simulation: A Deep Dive</h2>
-			<h3>Stochastic Analysis</h3>
-			<p>Monte Carlo simulations use random sampling to generate a multitude of potential asset return scenarios
-				based on historical data.</p>
-			<h3>Portfolio Combination</h3>
-			<P>The tool generates thousands of potential portfolios by randomly assigning different weight combinations
-				to each stock. However, for users with specific investment strategies or preferences, there's the option
-				to input custom weights for each stock, offering a more tailored analysis.</P>
-			<h3>Outcome</h3>
-			<p>Users are presented with a wide array of portfolios, each showcasing a unique blend of expected returns
-				and associated volatilities.</p>
-			<h2>Efficient Frontier Modeling: Visualizing Optimal Portfolios</h2>
-			<h3>Visualization</h3>
-			<p>All simulated portfolios are plotted on a graph. The Efficient Frontier, representing the optimal
-				portfolios, emerges as the upper boundary of this plot.</p>
-			<h3>Key Insights</h3>
-			<ul>
-				<li>Maximum Sharpe Ratio: Represents the portfolio with the optimal risk-adjusted return.</li>
-				<li>Minimum Volatility: Denotes the least risky portfolio.</li>
-				<li>Portfolio Beta: A measure of the portfolio's volatility in comparison to the S&P 500. It provides
-					insights into the market risk associated with the portfolio.</li>
-				<li>Alpha: This metric evaluates the portfolio's performance against the benchmark index, helping users
-					understand if their strategy is outperforming the market.</li>
-				<li>R-squared: Indicates how closely the portfolio's returns match or deviate from the benchmark index's
-					returns. A higher R-squared value means the portfolio's performance is closely aligned with the
-					market.</li>
-			</ul>
-			<h3>Integration of Simulations, Modeling & Customization</h3>
-			<p>The Portfolio Analysis Tool's strength lies in its integration of advanced techniques like Monte Carlo
-				simulations with Efficient Frontier modeling and its adaptability to user preferences through custom
-				weight inputs. This combination ensures both a broad analytical perspective and a tailored experience
-				for users.</p>
-			<h3>Conclusion</h3>
-			<p>This Portfolio Analysis Tool provides an advanced yet user-friendly platform for stock portfolio
-				analysis. By offering insights derived from Monte Carlo simulations, Efficient Frontier modeling, and
-				other key financial metrics, while also accommodating custom inputs, it ensures users are equipped to
-				make well-informed investment decisions.
-			</p>
+			<a class="icon brands fa-github"></li><a href="https://github.com/swishmeister/PortfolioAnalyzer/tree/main"
+					target="_blank"> View on Github</a><br>
+				<a class="icon solid fa-file"></a><a href="assets/Portfolio_Analysis_Report_20230901_195656.pdf"
+					target="_blank"> Sample Report</a>
+				<h2>About the Project</h2>
+				<p>This Python developed Portfolio Analysis Tool excels with its application of Monte Carlo simulations
+					and
+					Efficient Frontier modeling. This software provides a comprehensive understanding of potential stock
+					portfolio scenarios, helping users visualize the risk-return trade-offs of their chosen stocks,
+					while
+					also granting them the flexibility to input custom weights.</p>
+				<h2>Monte Carlo Simulation: A Deep Dive</h2>
+				<h3>Stochastic Analysis</h3>
+				<p>Monte Carlo simulations use random sampling to generate a multitude of potential asset return
+					scenarios
+					based on historical data.</p>
+				<h3>Portfolio Combination</h3>
+				<P>The tool generates thousands of potential portfolios by randomly assigning different weight
+					combinations
+					to each stock. However, for users with specific investment strategies or preferences, there's the
+					option
+					to input custom weights for each stock, offering a more tailored analysis.</P>
+				<h3>Outcome</h3>
+				<p>Users are presented with a wide array of portfolios, each showcasing a unique blend of expected
+					returns
+					and associated volatilities.</p>
+				<h2>Efficient Frontier Modeling: Visualizing Optimal Portfolios</h2>
+				<h3>Visualization</h3>
+				<p>All simulated portfolios are plotted on a graph. The Efficient Frontier, representing the optimal
+					portfolios, emerges as the upper boundary of this plot.</p>
+				<h3>Key Insights</h3>
+				<ul>
+					<li>Maximum Sharpe Ratio: Represents the portfolio with the optimal risk-adjusted return.</li>
+					<li>Minimum Volatility: Denotes the least risky portfolio.</li>
+					<li>Portfolio Beta: A measure of the portfolio's volatility in comparison to the S&P 500. It
+						provides
+						insights into the market risk associated with the portfolio.</li>
+					<li>Alpha: This metric evaluates the portfolio's performance against the benchmark index, helping
+						users
+						understand if their strategy is outperforming the market.</li>
+					<li>R-squared: Indicates how closely the portfolio's returns match or deviate from the benchmark
+						index's
+						returns. A higher R-squared value means the portfolio's performance is closely aligned with the
+						market.</li>
+				</ul>
+				<h3>Integration of Simulations, Modeling & Customization</h3>
+				<p>The Portfolio Analysis Tool's strength lies in its integration of advanced techniques like Monte
+					Carlo
+					simulations with Efficient Frontier modeling and its adaptability to user preferences through custom
+					weight inputs. This combination ensures both a broad analytical perspective and a tailored
+					experience
+					for users.</p>
+				<h3>Conclusion</h3>
+				<p>This Portfolio Analysis Tool provides an advanced yet user-friendly platform for stock portfolio
+					analysis. By offering insights derived from Monte Carlo simulations, Efficient Frontier modeling,
+					and
+					other key financial metrics, while also accommodating custom inputs, it ensures users are equipped
+					to
+					make well-informed investment decisions.
+				</p>
 
 		</div>
-		</div>
+	</div>
 
 	</div>
 	<div id="popout-nvidia">
@@ -279,7 +319,8 @@
 						<article>
 							<a class="image"><img src="images/Poe_Currency.png" /></a>
 							<h3 class="major">Path of Exile Currency Visualization</h3>
-							<p>A Power BI dashboard visualizing in-game currency values and financial trends for the game Path of
+							<p>A Power BI dashboard visualizing in-game currency values and financial trends for the
+								game Path of
 								Exile.</p>
 							<a onclick="openPopout('popout-poe')" class="special">Learn more</a>
 						</article>
