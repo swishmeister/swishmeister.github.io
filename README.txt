@@ -1,31 +1,22 @@
-Solid State by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Austin Swisher's Data Analyst Portfolio
 
+Welcome to the GitHub repository for [SwishMeister's Data Analyst Portfolio](https://swishmeister.github.io). This website showcases my skills, achievements, and projects as a data analyst.
 
-After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
-more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
-pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
-sort of look. Hope you dig it :)
+## Purpose
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+The primary goal of this portfolio is to provide an overview of my expertise as a data analyst. It serves as a platform for potential employers, collaborators, or anyone interested in my work to get a glimpse of what I've accomplished.
 
-(* = not included)
+## Features
 
-AJ
-aj@lkn.io | @ajlkn
+- **Portfolio Projects**: Detailed showcase of various projects I've undertaken in the field of data analysis.
+- **About Me**: A brief overview of my journey, skills, and qualifications.
+- **Contact**: A section where you can get in touch with me for collaborations, job opportunities, or general feedback.
 
+## Technologies Used
 
-Credits:
+- **HTML**: For structuring the content.
+- **JavaScript**: To add interactivity and dynamic content.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Get in Touch
 
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+If you have any questions, feedback, or opportunities, feel free to email me at [austinlswisher@gmail.com](mailto:austinlswisher@gmail.com).
