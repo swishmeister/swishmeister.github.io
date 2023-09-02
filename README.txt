@@ -15,6 +15,7 @@ The primary goal of this portfolio is to provide an overview of my expertise as 
 ## Technologies Used
 
 - **HTML**: For structuring the content.
+- **CSS**: For styling and layout.
 - **JavaScript**: To add interactivity and dynamic content.
 
 ## Get in Touch
