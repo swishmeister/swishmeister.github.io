@@ -20,4 +20,4 @@ The primary goal of this portfolio is to provide an overview of my expertise as 
 
 ## Get in Touch
 
-If you have any questions, feedback, or opportunities, feel free to email me at [austinlswisher@gmail.com](mailto:austinlswisher@gmail.com).
+If you have any questions, feedback, or opportunities, feel free to email me at [austin@aswish.org](mailto:austin@aswish.org).
