@@ -256,10 +256,7 @@ body.is-preload *:after {
 	-webkit-animation: none !important;
 	-ms-animation: none !important;
 	animation: none !important;
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
+	
 }
 
 /* Type */
@@ -387,6 +384,7 @@ a.special:not(.button):before {
 	text-indent: 0.15em;
 	vertical-align: middle;
 	width: 2em;
+	cursor:pointer;
 }
 
 a.special:not(.button):hover:before {
@@ -2271,6 +2269,7 @@ hr.major {
 section.special,
 article.special {
 	text-align: center;
+	cursor: pointer;
 }
 
 /* Form */
@@ -3192,6 +3191,16 @@ button:disabled,
 	border-radius: 5px;
 	margin: 1.5em 3em 1.5em 0;
 	width: calc(50% - 1.5em);
+	cursor:pointer;
+	transition: 0.2s;
+}
+
+.features article:hover {
+	transform: scale(1.02);
+	transition: 0.2;
+	background-color: #3d4153;
+
+
 }
 
 .features article:nth-child(2n) {
